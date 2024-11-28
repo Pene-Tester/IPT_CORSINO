@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for centering */
+}
+
+.container {
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for the container */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded button corners */
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+p {
+    margin-top: 20px; /* Space above the result text */
+    font-size: 18px; /* Slightly larger font for result */
+}
